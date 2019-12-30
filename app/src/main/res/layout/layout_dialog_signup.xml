@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_margin="30dp"
+        android:gravity="center"
+        android:textColor="@color/colorPrimary"
+        android:text="ENTER RELEVANT INFORMATION TO SIGN UP" />
+
+    <TextView
+        android:id="@+id/enterUsernameLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="30dp"
+        android:padding="3dp"
+        android:gravity="center"
+        android:textColor="@color/colorPrimary"
+        android:text="ENTER USER NAME HERE" />
+
+    <EditText
+        android:id="@+id/enterUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:padding="10dp"
+        android:hint="username here!"
+        android:background="@drawable/button_style"
+        android:textColorHint="#ffffff"
+        android:textColor="#ffffff"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="0dp"
+        android:gravity="center"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/enterPasswordLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="3dp"
+        android:layout_marginBottom="0dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:textColor="@color/colorPrimary"
+        android:text="ENTER PASSWORD HERE" />
+
+    <EditText
+        android:id="@+id/enterPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:padding="10dp"
+        android:hint="password here!"
+        android:background="@drawable/button_style"
+        android:textColorHint="#ffffff"
+        android:textColor="#ffffff"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="0dp"
+        android:gravity="center"
+        android:inputType="textPassword" />
+
+</LinearLayout>
